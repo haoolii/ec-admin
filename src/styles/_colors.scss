@@ -1,0 +1,10 @@
+@each $name, $color in $colors {
+    .#{$name} {
+      color: $color;
+    }
+  
+    .bg-#{$name} {
+      background: $color;
+    }
+  }
+  
